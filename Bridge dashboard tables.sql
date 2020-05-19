@@ -12,4 +12,5 @@ SELECT TOP 5 * FROM nvads.da_mapping_table
 
 SELECT TOP 5 * FROM Nvdev.wbr_analyst_dim
 SELECT TOP 5 * FROM nvdev.wbr_week_cal
-where start_date > '2020-1-1' and business_days <5
+where start_date > '2020-1-1'
+and business_days <5
